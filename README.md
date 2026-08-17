@@ -28,10 +28,14 @@ O deploy é feito pela integração nativa de Git do hPanel (Hostinger): a cada 
 
 ```
 .
-├── index.html      # página principal
+├── index.html          # landing page do curso
+├── assets/
+│   ├── css/style.css   # estilos (tokens, layout, componentes)
+│   ├── js/main.js      # menu mobile, scroll reveal, FAQ, sticky CTA
+│   └── img/            # fotos, logos e favicon (ativos reais do cliente)
 ├── README.md
-├── DEPLOY.md        # guia de publicação
-└── package.json     # apenas script de dev local
+├── DEPLOY.md           # guia de publicação
+└── package.json        # apenas script de dev local
 ```
 
 ## Fluxo Git recomendado
